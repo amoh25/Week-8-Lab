@@ -1,0 +1,27 @@
+/*#23395B*/
+/*#DCC48E*/
+/*#406E8E*/
+/*#C6DDF0*/
+
+main{background-color:#406E8E;}
+h1{color:#DCC48E;}
+h2{color:#DCC48E;}
+
+p{font-family: 'Merriweather', serif;}
+header{font-family: 'Open Sans', sans-serif;}
+
+.main{color: #DCC48E;}
+.nav{color: #406E8E;}
+body{color: #DCC48E;}
+
+header{position: -webkit-sticky;
+    position: sticky;
+    top: 20px;}
+
+a:visited { 
+    color:black;
+      }
+a{color: black;}
+
+a:hover{color: blue;
+}
