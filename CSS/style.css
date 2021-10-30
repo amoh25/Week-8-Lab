@@ -1,27 +1,56 @@
-/*#23395B*/
-/*#DCC48E*/
+/*#0b0c10*/
+/*#66fcf1*/
 /*#406E8E*/
 /*#C6DDF0*/
 
-main{background-color:#406E8E;}
-h1{color:#DCC48E;}
-h2{color:#DCC48E;}
+main{background: color white;}
 
-p{font-family: 'Merriweather', serif;}
+h1{color: #66fcf1;
+   text-align: left;}
+
+
+body{font-family: 'Merriweather', serif;}
 header{font-family: 'Open Sans', sans-serif;}
 
-.main{color: #DCC48E;}
-.nav{color: #406E8E;}
-body{color: #DCC48E;}
+
+.main{color: white;
+      max-width: 1000px;
+      min-width: 320px;
+      margin: auto;
+      padding: 50px;}
+
+.nav{color: #c5c6c7;}
+
+.nav ul{margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;}
+
+.nav li{flex: 3;
+        flex-basis: 100%;
+}
+
+body{background-color: #0b0c10;
+     color: white;
+     margin: 0;}
 
 header{position: -webkit-sticky;
     position: sticky;
-    top: 20px;}
+    top: 20px;
+    width: 100%;}
 
 a:visited { 
-    color:black;
+    color:white;
       }
-a{color: black;}
 
-a:hover{color: blue;
+a{color: white;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;}
+
+a:hover{color: white;
 }
+
