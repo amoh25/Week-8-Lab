@@ -2,22 +2,30 @@
 /*#66fcf1*/
 /*#406E8E*/
 /*#C6DDF0*/
-
-main{background: color white;}
-
-h1{color: #66fcf1;
-   text-align: left;}
-
-
-body{font-family: 'Merriweather', serif;}
-header{font-family: 'Open Sans', sans-serif;}
-
-
-.main{color: white;
-      max-width: 1000px;
-      min-width: 320px;
-      margin: auto;
-      padding: 50px;}
+*{
+        box-sizing:border;
+        background-image:url(https://archziner.com/wp-content/uploads/2020/01/broken-glass-effect-cute-aesthetic-backgrounds-black-background-white-lines-recreating-broken-glass.jpg) ;
+}
+    
+body{
+        font-family: 'Merriweather', serif;
+        margin: 0;
+        background-color: #0b0c10;
+}
+    
+a{
+      color: white;
+      font-weight: 100;
+      letter-spacing: 1.5px;
+      padding: 20px;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+}
+    
+a:hover{
+        color: white;
+}
 
 .nav{color: #c5c6c7;}
 
