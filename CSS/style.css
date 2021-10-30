@@ -67,3 +67,27 @@ main{
       top: 0px;
       display: flex;
 }
+
+.outer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(1, auto);
+        grid-template-areas: 'nav'
+                             'main';
+        grid-gap: 50px;
+}
+    
+h1{
+        text-align: center;
+        font-family:'Merriweather', serif;
+        color: white;
+}
+    
+header{
+        width: 100%;
+}
+    
+nav{
+        float: right;
+}
